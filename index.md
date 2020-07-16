@@ -13,11 +13,11 @@ You may install MXNet via:
 pip install -U --pre "mxnet>=1.7.0b20200714, <2.0.0" -f https://sxjscience.github.io/KDD2020/
 
 # For GPU users, CUDA 100
-pip install -U --pre "mxnet_cu101>=1.7.0b20200714, <2.0.0" -f https://sxjscience.github.io/KDD2020/
+pip install -U --pre "mxnet_cu100>=1.7.0b20200714, <2.0.0" -f https://sxjscience.github.io/KDD2020/
 
 # For GPU users, CUDA 101
 pip install -U --pre "mxnet_cu101>=1.7.0b20200714, <2.0.0" -f https://sxjscience.github.io/KDD2020/
 
 # For GPU users, CUDA 102
-pip install -U --pre "mxnet_cu101>=1.7.0b20200714, <2.0.0" -f https://sxjscience.github.io/KDD2020/
+pip install -U --pre "mxnet_cu102>=1.7.0b20200714, <2.0.0" -f https://sxjscience.github.io/KDD2020/
 ```

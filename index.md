@@ -1,7 +1,7 @@
 *DISCLAIMER: This page contains the wheel packages of [Apache MXNet (incubating)](https://github.com/apache/incubator-mxnet)
 build on version 1.7.0.
 This is mainly for the purpose of the KDD2020 Tutorial
-**Practical Automated Machine Learning with Tabular, Text, and Image Data**: 
+**"Practical Automated Machine Learning with Tabular, Text, and Image Data"**: 
 
 - [mxnet-1.7.0b20200722-cp37-cp37m-macosx_10_7_x86_64.whl](https://autogluon-kdd-mxnet-wheels.s3-accelerate.amazonaws.com/mxnet-1.7.0b20200722-cp37-cp37m-macosx_10_7_x86_64.whl)
 - [mxnet-1.7.0b20200722.py3-none-manylinux2014_x86_64.whl](https://autogluon-kdd-mxnet-wheels.s3-accelerate.amazonaws.com/mxnet-1.7.0b20200722-py2.py3-none-manylinux2014_x86_64.whl)

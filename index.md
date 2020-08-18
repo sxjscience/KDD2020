@@ -24,3 +24,23 @@ python3 -m pip install -U --pre "mxnet_cu101>=1.7.0b20200713, <2.0.0" -f https:/
 # For GPU users, CUDA 102
 python3 -m pip install -U --pre "mxnet_cu102>=1.7.0b20200713, <2.0.0" -f https://sxjscience.github.io/KDD2020/
 ```
+
+# Common Issues
+
+- I cannot install the package and it reports the error 
+`XXX is not a supported wheel on this platform.`
+
+    One possibility is that you are using an older version of pip. Try to upgrade your pip to a version later than `19.0.0`, 
+e.g., use the following command:
+
+    ```bash
+    python3 -m pip --upgrade pip --user
+    ```
+
+- I cannot find the cu102 with version `>=1.7.0b20200713, <2.0.0`.
+
+    May be the pip version is too old. Try to upgrad the pip via:
+    
+    ```bash
+    python3 -m pip --upgrade pip --user
+    ```

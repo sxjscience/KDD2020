@@ -8,28 +8,19 @@ This is mainly for the purpose of the KDD2020 Tutorial
 - [mxnet_cu100-1.7.0b20200730-py2.py3-none-manylinux2014_x86_64.whl](https://autogluon-kdd-mxnet-wheels.s3-accelerate.amazonaws.com/mxnet_cu100-1.7.0b20200730-py2.py3-none-manylinux2014_x86_64.whl)
 - [mxnet_cu101-1.7.0b20200729-py2.py3-none-manylinux2014_x86_64.whl](https://autogluon-kdd-mxnet-wheels.s3-accelerate.amazonaws.com/mxnet_cu101-1.7.0b20200729-py2.py3-none-manylinux2014_x86_64.whl)
 - [mxnet_cu102-1.7.0b20200730-py2.py3-none-manylinux2014_x86_64.whl](https://autogluon-kdd-mxnet-wheels.s3-accelerate.amazonaws.com/mxnet_cu102-1.7.0b20200730-py2.py3-none-manylinux2014_x86_64.whl)
-- [autogluon_contrib_nlp-1.0.0.dev0b20200804-py3-none-any.whl](https://autogluon-kdd-mxnet-wheels.s3.amazonaws.com/autogluon_contrib_nlp-1.0.0.dev0b20200804-py3-none-any.whl)
 
 You may install MXNet via:
 
 ```bash
 # For CPU users
-pip install -U --pre "mxnet>=1.7.0b20200713, <2.0.0" -f https://sxjscience.github.io/KDD2020/
+python3 -m pip install -U --pre "mxnet>=1.7.0b20200713, <2.0.0" -f https://sxjscience.github.io/KDD2020/
 
 # For GPU users, CUDA 100
-pip install -U --pre "mxnet_cu100>=1.7.0b20200713, <2.0.0" -f https://sxjscience.github.io/KDD2020/
+python3 -m pip install -U --pre "mxnet_cu100>=1.7.0b20200713, <2.0.0" -f https://sxjscience.github.io/KDD2020/
 
 # For GPU users, CUDA 101
-pip install -U --pre "mxnet_cu101>=1.7.0b20200713, <2.0.0" -f https://sxjscience.github.io/KDD2020/
+python3 -m pip install -U --pre "mxnet_cu101>=1.7.0b20200713, <2.0.0" -f https://sxjscience.github.io/KDD2020/
 
 # For GPU users, CUDA 102
-pip install -U --pre "mxnet_cu102>=1.7.0b20200713, <2.0.0" -f https://sxjscience.github.io/KDD2020/
-```
-
-Also, you may install the autogluon-contrib-nlp package via:
-
-
-
-```bash
-pip install -U --pre "autogluon_contrib_nlp" -f https://sxjscience.github.io/KDD2020/
+python3 -m pip install -U --pre "mxnet_cu102>=1.7.0b20200713, <2.0.0" -f https://sxjscience.github.io/KDD2020/
 ```

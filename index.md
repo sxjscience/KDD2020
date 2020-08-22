@@ -45,3 +45,7 @@ e.g., use the following command:
     ```bash
     python3 -m pip install --upgrade pip --user
     ```
+
+- While running tutorials, I get error message "Check failed: e == cudaSuccess: CUDA: initialization error".
+
+    You may have the wrong version of MXNet installed for your CUDA version. Match the CUDA version carefully when following the installation instructions above.

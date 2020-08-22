@@ -15,15 +15,17 @@ You may install MXNet via:
 # For CPU users
 python3 -m pip install -U --pre "mxnet>=1.7.0b20200713, <2.0.0" -f https://sxjscience.github.io/KDD2020/
 
-# For GPU users, CUDA 100
+# For GPU users, CUDA v10.0
 python3 -m pip install -U --pre "mxnet_cu100>=1.7.0b20200713, <2.0.0" -f https://sxjscience.github.io/KDD2020/
 
-# For GPU users, CUDA 101
+# For GPU users, CUDA v10.1
 python3 -m pip install -U --pre "mxnet_cu101>=1.7.0b20200713, <2.0.0" -f https://sxjscience.github.io/KDD2020/
 
-# For GPU users, CUDA 102
+# For GPU users, CUDA v10.2
 python3 -m pip install -U --pre "mxnet_cu102>=1.7.0b20200713, <2.0.0" -f https://sxjscience.github.io/KDD2020/
 ```
+
+To determine which CUDA version you have, execute the following in the command line: `nvcc --version`
 
 # Common Issues
 
@@ -56,3 +58,7 @@ e.g., use the following command:
    # For GPU users, CUDA 101
    python3 -m pip install -U --pre "mxnet_cu101>=1.7.0b20200713, <2.0.0" -f https://sxjscience.github.io/KDD2020/
    ```
+
+- While running tutorials, I get error message "Check failed: e == cudaSuccess: CUDA: initialization error".
+
+    You may have the wrong version of MXNet installed for your CUDA version. Match the CUDA version carefully when following the installation instructions above.

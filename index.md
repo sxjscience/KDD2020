@@ -34,7 +34,7 @@ python3 -m pip install -U --pre "mxnet_cu102>=1.7.0b20200713, <2.0.0" -f https:/
 e.g., use the following command:
 
     ```bash
-    python3 -m pip --upgrade pip --user
+    python3 -m pip install --upgrade pip --user
     ```
 
 - I cannot find the cu102 with version `>=1.7.0b20200713, <2.0.0`.
@@ -42,5 +42,5 @@ e.g., use the following command:
     May be the pip version is too old. Try to upgrad the pip via:
     
     ```bash
-    python3 -m pip --upgrade pip --user
+    python3 -m pip install --upgrade pip --user
     ```
